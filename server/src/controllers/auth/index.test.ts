@@ -29,6 +29,7 @@ describe('Controllers - Auth', () => {
 
     expect(result).toStrictEqual({
       success: true,
+      message: 'Usuario autenticado com sucesso!',
       token: 'user-token',
       user: {
         id: 1,

@@ -19,6 +19,7 @@ const authenticateController = async (request: RequestOptions) => {
   return {
     success: true,
     token: 'user-token',
+    message: 'Usuario autenticado com sucesso!',
     user: {
       id: user.id,
       username: user.username,

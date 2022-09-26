@@ -21,7 +21,7 @@ const expressAdapter = (controllerFn: ControllerFn) => {
         stack: error.stack,
       })
 
-      return res.status(400).json({ // statusCode 400 fixo propositalmente só pra testar mesmo
+      return res.status(error.status).json({ // statusCode 400 fixo propositalmente só pra testar mesmo
         status: 'error',
         message: error.message, // sei que é falha de seguranca, mas é apenas pra testar!
       })
