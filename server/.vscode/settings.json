@@ -1,0 +1,30 @@
+{
+  "[typescript]": {
+    "editor.rulers": [
+      {
+        "column": 80,
+        "color": "#424142"
+      }
+    ],
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "cSpell.words": [
+    "aggs",
+    "antifraud",
+    "Estornada",
+    "extraton",
+    "MIGRATON",
+    "smusers",
+    "uuidv"
+  ],
+  "jest.autoRun": {
+    "watch": false,
+    "onSave": "test-src-file",
+    "onStartup": [
+      "not-test"
+    ]
+  }
+}
